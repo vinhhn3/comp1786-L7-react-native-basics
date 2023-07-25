@@ -1,20 +1,33 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { React, useState } from "react";
+import { Button, View } from "react-native";
+import Greeting from "./Greeting";
 
 export default function App() {
+  const [message, setMessage] = useState("Hello World!");
+
+  const changeMessage = () => {
+    setMessage("Hello from React Native!");
+  };
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Greeting message={message} style={{ color: "blue" }} />
+      <Button title="Change Message" onPress={changeMessage} />
     </View>
   );
 }
 
-const styles = StyleSheet.create({
+const styles = {
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#f0f0f0",
+    padding: 20,
   },
-});
+  text: {
+    fontSize: 24,
+    fontWeight: "bold",
+    marginBottom: 20,
+  },
+};

@@ -1,5 +1,9 @@
 # React Native Basics
 
+## React Native presentation
+
+https://www.slideshare.net/vikrantnegi007/react-native-105102847
+
 ## Installation
 
 Follow the URLs below to install dev environment of React Native

@@ -32,7 +32,7 @@ Create a new React Native Expo project by running the following command in your 
 
 ```
 npx create-expo-app comp1786-react-native-basics
-cd comp1786-react-native-async-basics
+cd comp1786-react-native-basics
 npx expo start
 ```
 

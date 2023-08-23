@@ -6,10 +6,25 @@ https://www.slideshare.net/vikrantnegi007/react-native-105102847
 
 ## Installation
 
+First, install NodeJS. To be stable, use LTS version
+
+- https://nodejs.org/en/download/current
+
 Follow the URLs below to install dev environment of React Native
 
 - https://reactnative.dev/docs/environment-setup?guide=quickstart
+
+In Android or iOS device, install Expo Go from the App Store or Play Store.
+
+Use the Expo Go to scan the QR code then we can have the application on the mobile device
+
+## Installation with Virtual Machine
+
+Follow the guide below to install needed tools for Virtual Machine
+
 - https://reactnative.dev/docs/environment-setup?guide=native
+
+Then you can use the Virtual Machine to launch the application
 
 ## Step 1: Set up the project
 

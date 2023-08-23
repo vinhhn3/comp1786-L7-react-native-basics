@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import { Button, View } from "react-native";
+import { Button, Text, View } from "react-native";
 import Greeting from "./Greeting";
 
 export default function App() {
@@ -11,6 +11,8 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+      <Text>Hello World</Text>
+      <Button title="press me" />
       <Greeting message={message} style={{ color: "blue" }} />
       <Button title="Change Message" onPress={changeMessage} />
     </View>

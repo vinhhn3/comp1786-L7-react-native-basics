@@ -31,7 +31,7 @@ Then you can use the Virtual Machine to launch the application
 Create a new React Native Expo project by running the following command in your terminal and run the application
 
 ```
-npx create-expo-app comp1786-react-native-basics
+npx create-expo-app comp1786-react-native-basics --template blank
 cd comp1786-react-native-basics
 npx expo start
 ```
